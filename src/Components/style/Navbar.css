@@ -1,0 +1,14 @@
+.Nav-Bar{
+    width: 100vw;
+    padding: 0.5% 15%;
+    background-color: aliceblue;
+}
+.Nav-links{
+    position: absolute;
+    /* cursor:default; */
+    right: 15%;
+}
+.Nav-links>li :hover{
+    background-color: aqua;
+
+}
