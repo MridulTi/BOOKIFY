@@ -1,14 +1,31 @@
 .Nav-Bar{
+    position: fixed;
+    z-index: 99;
     width: 100vw;
-    padding: 0.5% 15%;
-    background-color: aliceblue;
+    padding: 1.2% 15%;
+    border: 0.1rem solid grey;
+    background-color: white;
 }
 .Nav-links{
+    /* position: absolute; */
+    /* cursor:default; */
+    /* left: 15%; */
+}
+.Nav-buttons{
     position: absolute;
+    top: 20%;
     /* cursor:default; */
     right: 15%;
 }
+.outline-btn{
+    border: 0.1rem solid gray;
+    /* border-radius: 2rem; */
+    padding: 0% 15%;
+}
+.outline-btn:hover{
+    background-color: grey;
+    color: #fff;
+}
 .Nav-links>li :hover{
     background-color: aqua;
-
 }

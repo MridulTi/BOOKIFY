@@ -11,11 +11,17 @@ export default function Navbar(){
                 <li>
                     <p>Category</p>
                 </li><li>
-                    <p>Club</p>
+                    <p>Forum</p>
                 </li><li>
                     <p>Browse</p>
                 </li>
             </div>
+            <div className="Nav-buttons cursor-default flex gap-12 text-lg list-none">
+                <button className="outline-btn">Search</button>
+                <button className="outline-btn">Sign Up</button>
+                <button className="outline-btn">Login</button>
+            </div>
+            
         </div>
     )
 }

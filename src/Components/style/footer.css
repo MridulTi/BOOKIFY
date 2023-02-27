@@ -1,0 +1,31 @@
+.Footer{
+    position: fixed;
+    bottom: 0;
+    z-index: 0;
+    /* background-color: blueviolet; */
+    background-image: url("/public/Images/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.Footer-color {
+    background-color: rgb(57, 38, 75);
+
+    opacity: 0.75;
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.753196716308594rem;
+  }
+.Footer-links>div>h2{
+    font-weight: 700;
+    padding-bottom: 10%;
+}
+.Footer-links>div>li{
+    list-style: none;
+    padding: 2% 0%;
+}
