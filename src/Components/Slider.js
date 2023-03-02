@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './Slider.css'
+import './style/Slider.css'
 import dataSlider from "./list/information.js"
 export function BtnSlider({ direction, moveSlide }) {
     console.log(direction, moveSlide);

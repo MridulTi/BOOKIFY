@@ -1,7 +1,7 @@
 .Footer{
-    position: fixed;
+    /* position: fixed;
     bottom: 0;
-    z-index: 0;
+    z-index: 0; */
     /* background-color: blueviolet; */
     background-image: url("/public/Images/footer.jpg");
     background-repeat: no-repeat;

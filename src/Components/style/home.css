@@ -1,0 +1,18 @@
+/* Editors */
+.Editors{
+    justify-content: center;
+    padding: 5% 0%;
+    background-color: rgba(144, 238, 144, 0.438);
+}
+.Text-btn{
+    background-color: #fff;
+    color: purple;
+    padding: 0.5% 1%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+/* New book */
+.New-Book{
+    justify-content: center;
+    width: 100vw;
+    background-color: rgba(128, 0, 128, 0.616);
+}

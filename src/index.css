@@ -11,7 +11,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .main{
-  padding: 5%0%;
+  padding: 4% 0% 0%;
+  z-index: 98;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
